@@ -280,26 +280,26 @@ INSERT INTO public.galaxy VALUES (6, 'Sombrero', 'Parece un sombrero mexicano.',
 -- Data for Name: moon; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.moon VALUES (21, 3, 'Luna', true, 3474, 'El único satélite natural de la Tierra.');
-INSERT INTO public.moon VALUES (22, 4, 'Fobos', true, 22, 'Luna interior y más grande de Marte.');
-INSERT INTO public.moon VALUES (23, 4, 'Deimos', true, 12, 'Luna exterior y más pequeña de Marte.');
-INSERT INTO public.moon VALUES (24, 5, 'Io', true, 3643, 'La luna volcánicamente más activa.');
-INSERT INTO public.moon VALUES (25, 5, 'Europa', true, 3121, 'Posiblemente tiene un océano subsuperficial.');
-INSERT INTO public.moon VALUES (26, 5, 'Ganimedes', true, 5268, 'La luna más grande del sistema solar.');
-INSERT INTO public.moon VALUES (27, 5, 'Calisto', true, 4821, 'Luna muy antigua y helada.');
-INSERT INTO public.moon VALUES (28, 5, 'Amaltea', true, 167, 'Una de las lunas interiores de Jupiter.');
-INSERT INTO public.moon VALUES (29, 5, 'Himalia', false, 170, 'Una luna irregular de Jupiter.');
-INSERT INTO public.moon VALUES (30, 5, 'Elara', false, 79, 'Miembro del grupo Elara de lunas.');
-INSERT INTO public.moon VALUES (31, 6, 'Titan', true, 5149, 'La única luna conocida con atmósfera densa.');
-INSERT INTO public.moon VALUES (32, 6, 'Rea', true, 1528, 'Segunda luna más grande de Saturno.');
-INSERT INTO public.moon VALUES (33, 6, 'Iapeto', false, 1471, 'Tiene dos colores distintos.');
-INSERT INTO public.moon VALUES (34, 6, 'Dione', true, 1123, 'Tiene un tenue anillo de polvo.');
-INSERT INTO public.moon VALUES (35, 6, 'Tetis', true, 1066, 'Tiene un gran cañón llamado Ithaca Chasma.');
-INSERT INTO public.moon VALUES (36, 6, 'Encelado', true, 504, 'Famoso por sus géiseres.');
-INSERT INTO public.moon VALUES (37, 6, 'Mimas', true, 396, 'Tiene un cráter gigante, parece la Estrella de la Muerte.');
-INSERT INTO public.moon VALUES (38, 6, 'Hyperion', false, 270, 'Esponjosa e irregular.');
-INSERT INTO public.moon VALUES (39, 6, 'Phoebe', false, 213, 'Se cree que es un asteroide capturado.');
-INSERT INTO public.moon VALUES (40, 6, 'Jano', true, 179, 'Comparte órbita con Epimeteo.');
+INSERT INTO public.moon VALUES (1, 3, 'Luna', true, 3474, 'El único satélite natural de la Tierra.');
+INSERT INTO public.moon VALUES (2, 4, 'Fobos', true, 22, 'Luna interior y más grande de Marte.');
+INSERT INTO public.moon VALUES (3, 4, 'Deimos', true, 12, 'Luna exterior y más pequeña de Marte.');
+INSERT INTO public.moon VALUES (4, 5, 'Io', true, 3643, 'La luna volcánicamente más activa.');
+INSERT INTO public.moon VALUES (5, 5, 'Europa', true, 3121, 'Posiblemente tiene un océano subsuperficial.');
+INSERT INTO public.moon VALUES (6, 5, 'Ganimedes', true, 5268, 'La luna más grande del sistema solar.');
+INSERT INTO public.moon VALUES (7, 5, 'Calisto', true, 4821, 'Luna muy antigua y helada.');
+INSERT INTO public.moon VALUES (8, 5, 'Amaltea', true, 167, 'Una de las lunas interiores de Jupiter.');
+INSERT INTO public.moon VALUES (9, 5, 'Himalia', false, 170, 'Una luna irregular de Jupiter.');
+INSERT INTO public.moon VALUES (10, 5, 'Elara', false, 79, 'Miembro del grupo Elara de lunas.');
+INSERT INTO public.moon VALUES (11, 6, 'Titan', true, 5149, 'La única luna conocida con atmósfera densa.');
+INSERT INTO public.moon VALUES (12, 6, 'Rea', true, 1528, 'Segunda luna más grande de Saturno.');
+INSERT INTO public.moon VALUES (13, 6, 'Iapeto', false, 1471, 'Tiene dos colores distintos.');
+INSERT INTO public.moon VALUES (14, 6, 'Dione', true, 1123, 'Tiene un tenue anillo de polvo.');
+INSERT INTO public.moon VALUES (15, 6, 'Tetis', true, 1066, 'Tiene un gran cañón llamado Ithaca Chasma.');
+INSERT INTO public.moon VALUES (16, 6, 'Encelado', true, 504, 'Famoso por sus géiseres.');
+INSERT INTO public.moon VALUES (17, 6, 'Mimas', true, 396, 'Tiene un cráter gigante, parece la Estrella de la Muerte.');
+INSERT INTO public.moon VALUES (18, 6, 'Hyperion', false, 270, 'Esponjosa e irregular.');
+INSERT INTO public.moon VALUES (19, 6, 'Phoebe', false, 213, 'Se cree que es un asteroide capturado.');
+INSERT INTO public.moon VALUES (20, 6, 'Jano', true, 179, 'Comparte órbita con Epimeteo.');
 
 
 --
@@ -352,7 +352,7 @@ SELECT pg_catalog.setval('public.galaxy_galaxy_id_seq', 6, true);
 -- Name: moon_moon_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.moon_moon_id_seq', 40, true);
+SELECT pg_catalog.setval('public.moon_moon_id_seq', 20, true);
 
 
 --
